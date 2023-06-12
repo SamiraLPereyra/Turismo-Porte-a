@@ -1,0 +1,32 @@
+p{
+  font-family: 'Barlow Condensed', sans-serif;
+  font-family: 'Inconsolata', monospace;
+  font-family: 'Playfair Display', serif;
+}
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(172, 193, 243,1);
+  }
+  
+header{
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+    background-color: rgb(155, 161, 241);
+    color: rgb(12, 2, 25);
+    padding: 20px;
+    text-align: center;
+}
+nav{
+    background-color:rgb(155, 161, 241);
+    padding: 10px;
+    text-align: center;
+}
+nav a{
+    text-decoration: none;
+    color: rgb(10, 17, 24);
+    padding: 5px 10px;
+    margin: 0 5px;
+}
