@@ -1,5 +1,5 @@
 body{
-  background-color: #deb887;
+  background-color: #a4f5a4;
 }
 
 header{
@@ -17,7 +17,7 @@ header{
 }
 
 header.sticky{
-  background-color: #f5deb3;
+  background-color: #bdf6bd;
   padding: 10px 18%;
   box-shadow: rgba(33,35,38, 0.1) 0px 10px 10px -10px;
 }
@@ -53,4 +53,16 @@ header.sticky{
     z-index: 10001;
     cursor: pointer;
     display: none;
+}
+.fa-brands fa-pagelines{
+  color: #3cb371;
+}
+.footer-wrapper{
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    row-gap: 10px; 
+    justify-content: space-between;
+    padding: 2rem 1rem;
+    max-width: 1366px;
 }

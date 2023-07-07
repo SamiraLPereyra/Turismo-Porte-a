@@ -1,0 +1,70 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+#conteItemsCarrousel{
+	height: 500px;
+	overflow: hidden;
+	margin-top: 40px;
+}
+
+.itemCarrousel{
+	height: 500px;
+	position: relative;
+}
+
+.itemCarrouselTarjeta{
+	height: 100%;
+}
+
+.itemCarrouselArrows{
+	position: absolute;
+	top: 0;
+	height: 100%;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between; 
+	padding: 20px;
+}
+
+#itemTarjetaCarrousel-1{
+	background-color: azure;
+}
+
+#itemTarjetaCarrousel-2{
+	background-color: grey;
+}
+
+#itemTarjetaCarrousel-3{
+	background-color: greenyellow;
+}
+
+#itemTarjetaCarrousel-4{
+	background-color: paleturquoise;
+}
+
+#itemTarjetaCarrousel-5{
+	background-color: pink;
+}
+
+#itemTarjetaCarrousel-6{
+	background-color: green;
+}
+
+a{
+	text-decoration: none;
+}
+
+i{
+	box-size: 10px;
+	color: white;
+}
+
+img{
+	box-align: center;
+	height: 100%;
+	width: 100%;
+}

@@ -1,5 +1,5 @@
 body{
-  background-color: #ffcc99;
+  background-color: #E6E6FA;
 }
 
 header{
@@ -17,7 +17,7 @@ header{
 }
 
 header.sticky{
-  background-color: #ffeccd;
+  background-color: #CCCCFF;
   padding: 10px 18%;
   box-shadow: rgba(33,35,38, 0.1) 0px 10px 10px -10px;
 }
@@ -54,7 +54,6 @@ header.sticky{
     cursor: pointer;
     display: none;
 }
-
 *{
   padding: 0;
   margin: 0;
@@ -88,15 +87,15 @@ header.sticky{
 }
 
 #itemTarjetaCarrousel-1{
-  background-color: azure;
+  background: url(./img/bomberos.jpg);
 }
 
 #itemTarjetaCarrousel-2{
-  background-color: grey;
+  background: url(./img/dispensario.jpg);
 }
 
 #itemTarjetaCarrousel-3{
-  background-color: greenyellow;
+  background: url(./img/policia2.jpg);
 }
 
 #itemTarjetaCarrousel-4{
